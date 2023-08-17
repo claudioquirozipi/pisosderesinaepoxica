@@ -38,6 +38,7 @@ export default function Home() {
         </div>
       </header>
       <main className="mx-4 md:mx-auto  md:w-3/4">
+        <h1>{process.env.NEXT_PUBLIC_HOLA}</h1>
         <section className="bg-white p-6 rounded shadow">
           <h1 className="text-4xl font-semibold mb-4">
             Pisos de resina epóxica
