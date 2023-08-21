@@ -6,5 +6,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: "https://www.pisosderesinaepoxica.com/",
       lastModified: new Date(),
     },
+    {
+      url: "https://www.pisosderesinaepoxica.com/aplicacion",
+      lastModified: new Date(),
+    },
   ];
 }
