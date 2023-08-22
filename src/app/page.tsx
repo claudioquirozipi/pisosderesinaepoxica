@@ -1,5 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
-"use client";
+
+import { Section } from "@/components/section";
+import Link from "next/link";
+
 export default function Home() {
   return (
     <>
@@ -197,56 +200,40 @@ export default function Home() {
             popular en una amplia gama de entornos.
           </p>
         </section>
-        <section className="bg-white p-6 rounded shadow">
-          <h2 className="text-xl font-semibold mb-4">
-            Proceso de Instalación de los Pisos de Resina Epóxica
-          </h2>
-          <p className="text-gray-700">
-            La instalación adecuada de los pisos de resina epóxica es esencial
-            para garantizar su durabilidad y apariencia. A continuación, se
-            presenta un resumen del proceso típico de instalación:
-          </p>
-          <ol className="list-decimal list-inside text-gray-700 mt-2">
-            <li>
-              <strong>Preparación de la Superficie:</strong> La superficie debe
-              estar limpia, seca y libre de suciedad, grasa o contaminantes.
-              Cualquier imperfección debe ser reparada y nivelada.
-            </li>
-            <li>
-              <strong>Mezcla y Aplicación de la Resina:</strong> La resina
-              epóxica se mezcla siguiendo las instrucciones del fabricante.
-              Luego, se aplica uniformemente sobre la superficie con rodillos o
-              brochas.
-            </li>
-            <li>
-              <strong>Autonivelación (si es necesario):</strong> En el caso de
-              resinas autonivelantes, la resina se extenderá de manera uniforme
-              para que se nivele por sí misma.
-            </li>
-            <li>
-              <strong>Aplicación de Capas Decorativas (opcional):</strong> Se
-              pueden agregar capas de colores, pigmentos o efectos decorativos
-              durante la aplicación de la resina.
-            </li>
-            <li>
-              <strong>Tiempo de Curado:</strong> Después de aplicar la resina,
-              debe dejarse curar durante el tiempo especificado por el
-              fabricante. Durante este período, la resina se endurecerá y se
-              volverá resistente.
-            </li>
-            <li>
-              <strong>Sellado y Acabado:</strong> Se puede aplicar una capa
-              adicional de sellador para proteger la resina y darle brillo.
-              También se pueden realizar trabajos de acabado para pulir y
-              perfeccionar la superficie.
-            </li>
-          </ol>
-          <p className="text-gray-700 mt-2">
-            Es importante seguir las instrucciones del fabricante y contar con
-            profesionales capacitados para asegurar que el proceso de
-            instalación se realice de manera exitosa.
-          </p>
-        </section>
+        <Section
+          header={
+            <h2 className="text-xl font-semibold mb-4">
+              Aplicación de resina epóxica en pisos
+            </h2>
+          }
+          contentA={
+            <>
+              <p className="text-gray-700">
+                Aplicar resina epóxica en pisos implica preparar y limpiar la
+                superficie, mezclar resina y endurecedor según las indicaciones,
+                aplicar capas uniformes con rodillo y pincel, eliminando
+                burbujas, opcionalmente añadir colorantes, permitir el curado
+                adecuado y considerar un sellador para mayor durabilidad y
+                brillo. Sigue las instrucciones del fabricante y practica en un
+                área pequeña antes de proceder.
+              </p>
+              <Link
+                href="/aplicacion"
+                className="inline-block bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-4"
+              >
+                Ver más
+              </Link>
+            </>
+          }
+          contentB={
+            <img
+              className="rounded shadow-lg"
+              src="/applying-epoxy-resin-1.png"
+              alt="Hombre aplincando resina epóxica"
+            />
+          }
+        />
+
         <section className="bg-white p-6 rounded shadow">
           <h2 className="text-xl font-semibold mb-4">
             Diseños y Colores de los Pisos de Resina Epóxica
