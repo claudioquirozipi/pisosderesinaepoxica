@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 
 import { Section } from "@/components/section";
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
@@ -8,7 +9,7 @@ export default function Home() {
     <>
       <header className="w-full h-screen ">
         <figure className="w-full h-full absolute">
-          <img
+          <Image
             src="./headerBackground.png"
             alt=""
             className="w-full h-screen brightness-50"
@@ -203,19 +204,18 @@ export default function Home() {
         <Section
           header={
             <h2 className="text-xl font-semibold mb-4">
-              Aplicación de resina epóxica en pisos
+              Aplicación de las resinas para pisos epoxicos
             </h2>
           }
           contentA={
             <>
               <p className="text-gray-700">
-                Aplicar resina epóxica en pisos implica preparar y limpiar la
-                superficie, mezclar resina y endurecedor según las indicaciones,
-                aplicar capas uniformes con rodillo y pincel, eliminando
-                burbujas, opcionalmente añadir colorantes, permitir el curado
-                adecuado y considerar un sellador para mayor durabilidad y
-                brillo. Sigue las instrucciones del fabricante y practica en un
-                área pequeña antes de proceder.
+                Para aplicar la resina epoxica para pisos se debe preparar y
+                limpiar la superficie, mezclar resina y endurecedor según las
+                indicaciones, aplicar capas uniformes con rodillo y pincel,
+                eliminando burbujas, opcionalmente añadir colorantes, permitir
+                el curado adecuado y considerar un sellador para mayor
+                durabilidad y brillo.
               </p>
               <Link
                 href="/aplicacion"
@@ -226,7 +226,7 @@ export default function Home() {
             </>
           }
           contentB={
-            <img
+            <Image
               className="rounded shadow-lg"
               src="/applying-epoxy-resin-1.png"
               alt="Hombre aplincando resina epóxica"
