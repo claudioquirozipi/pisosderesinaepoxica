@@ -10,9 +10,11 @@ export default function Home() {
       <header className="w-full h-screen ">
         <figure className="w-full h-full absolute">
           <Image
-            src="./headerBackground.png"
+            src="/headerBackground.png"
             alt=""
             className="w-full h-screen brightness-50"
+            width={1920}
+            height={1080}
           />
         </figure>
 
@@ -230,6 +232,8 @@ export default function Home() {
               className="rounded shadow-lg"
               src="/applying-epoxy-resin-1.png"
               alt="Hombre aplincando resina epóxica"
+              width={250}
+              height={250}
             />
           }
         />
