@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "aplicar resina en pisos",
@@ -102,6 +103,9 @@ export default function Home() {
             <li>Instalaciones deportivas interiores.</li>
             <li>Suelos comerciales de alto tráfico.</li>
           </ul>
+          <Link href="/aplicacion/cemento" className="text-blue-500">
+            Ver más sobre pisos de cemento
+          </Link>
           <h3 className="text-lg font-semibold mb-4 mt-4">Pisos de madera:</h3>
           <ul className="list-disc list-inside">
             <li>Hogares y áreas de estar.</li>
