@@ -14,5 +14,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: "https://www.pisosderesinaepoxica.com/aplicacion/cemento",
       lastModified: new Date(),
     },
+    {
+      url: "https://www.pisosderesinaepoxica.com/aplicacion/madera",
+      lastModified: new Date(),
+    },
   ];
 }
