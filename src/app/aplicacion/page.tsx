@@ -113,6 +113,9 @@ export default function Home() {
             <li>Espacios de oficina creativos.</li>
             <li>Pisos de tiendas y boutiques.</li>
           </ul>
+          <Link href="/aplicacion/madera" className="text-blue-500">
+            Ver más sobre pisos de madera
+          </Link>
           <h3 className="text-lg font-semibold mb-4 mt-4">
             Pisos de cerámica:
           </h3>
