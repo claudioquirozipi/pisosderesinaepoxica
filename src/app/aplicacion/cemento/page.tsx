@@ -1,9 +1,9 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "aplicar resina en pisos",
+  title: "resina epoxica para pisos de cemento",
   description:
-    "Todo sobre como aplicar la resina epoxica para pisos paso a paso",
+    "Todo lo que necesitas saber sobre la resina epoxica para pisos de cemento",
 };
 
 export default function Home() {
