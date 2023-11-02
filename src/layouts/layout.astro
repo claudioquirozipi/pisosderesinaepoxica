@@ -1,0 +1,28 @@
+---
+interface Props {
+  title: string;
+}
+import { ViewTransitions } from "astro:transitions";
+const { title } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <meta charset="UTF-8" />
+  <meta name="description" content="Pisos de resina epóxica" />
+  <meta name="viewport" content="width=device-width" />
+  <link rel="icon" type="image/svg+xml" href="/logo.jpg" />
+  <link rel="shortcut icon" href="/logo.jpg" />
+  <meta property="og:image" content="avatar.jpg" />
+  <meta name="generator" content={Astro.generator} />
+  <title>{title}</title>
+  <ViewTransitions />
+
+  <body>
+    <div class="wrapper">
+      <slot />
+
+      <style></style>
+    </div>
+  </body><!-- 00FFFF --><!-- 006BDE --><!-- 00020A  rgba(0, 107, 222, 0.3);-->
+</html>
