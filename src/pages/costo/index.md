@@ -1,5 +1,5 @@
 ---
-layout: ../layouts/layout.astro
+layout: ../../layouts/layout.astro
 ---
 
 ¿Cuánto Cuestan los Pisos de Resina Epóxica?

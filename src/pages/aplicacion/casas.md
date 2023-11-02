@@ -1,5 +1,5 @@
 ---
-layout: ../layouts/layout.astro
+layout: ../../layouts/layout.astro
 ---
 
 Cómo Aplicar Pisos de Resina Epoxi en Hogares

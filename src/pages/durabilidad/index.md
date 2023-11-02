@@ -1,5 +1,5 @@
 ---
-layout: ../layouts/layout.astro
+layout: ../../layouts/layout.astro
 ---
 
 Pisos de Resina Epóxica: Durabilidad y Rendimiento

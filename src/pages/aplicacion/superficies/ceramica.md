@@ -1,5 +1,5 @@
 ---
-layout: ../layouts/layout.astro
+layout: ../../../layouts/layout.astro
 ---
 
 Cómo Aplicar Resina Epoxi en Pisos de Cerámica: Pasos Clave

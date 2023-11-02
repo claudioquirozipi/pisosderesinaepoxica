@@ -1,5 +1,5 @@
 ---
-layout: ../layouts/layout.astro
+layout: ../../../layouts/layout.astro
 ---
 
 Cómo Aplicar Resina Epóxica en Pisos de Cemento: Pasos Clave

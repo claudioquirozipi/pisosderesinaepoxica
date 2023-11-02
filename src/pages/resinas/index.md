@@ -1,5 +1,5 @@
 ---
-layout: ../layouts/layout.astro
+layout: ../../layouts/layout.astro
 ---
 
 Lista de Resinas Epóxicas: Resina Epóxica de Alto Desempeño: Ideal para áreas de
