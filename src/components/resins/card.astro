@@ -1,5 +1,6 @@
 ---
-import type { Resin } from "./resins";
+import type { Resin } from "../../pages/resinas/resins";
+import { Image } from "astro:assets";
 interface Props {
   resin: Resin;
 }
@@ -12,7 +13,13 @@ function limitarString(str: string, limite: number) {
 ---
 
 <div class="max-w-xs rounded-lg overflow-hidden shadow-lg">
-  <img class="w-full" src={resin.img[0]} alt={resin.title} />
+  <Image
+    width={200}
+    height={200}
+    class="w-full"
+    src={resin.img}
+    alt={resin.title}
+  />
   <div class="px-6 py-4">
     <div class="font-bold text-xl mb-2">{resin.title}</div>
     <p class="text-gray-700 text-base">
