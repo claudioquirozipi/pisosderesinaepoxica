@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://www.pisosderesinaepoxica.com/sitemap-index.xml
