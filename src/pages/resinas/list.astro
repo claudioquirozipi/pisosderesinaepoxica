@@ -1,0 +1,18 @@
+---
+import type { Resin } from "./resins";
+import Card from "./card.astro";
+interface Props {
+  resins: Resin[];
+}
+const { resins } = Astro.props;
+---
+
+<div class="flex flex-wrap justify-center gap-6">
+  {
+    resins.map((resin) => (
+      <>
+        <Card resin={resin} />
+      </>
+    ))
+  }
+</div>
