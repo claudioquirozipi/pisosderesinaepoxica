@@ -1,5 +1,5 @@
 import { Resin } from "@/app/data/resins";
-import Image from "next/image";
+// import Image from "next/image";
 
 interface Props {
   resin: Resin;
