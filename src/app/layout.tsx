@@ -5,6 +5,7 @@ import Script from "next/script";
 import { Analytics } from "@vercel/analytics/react";
 import Footer from "./components/footer";
 import Navbar from "@/app/components/navbar";
+import Container from "./components/container";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -41,7 +42,9 @@ export default function RootLayout({
 
       <body className={inter.className}>
         <Navbar />
-        {children}
+
+        <Container>{children}</Container>
+
         <Footer />
       </body>
       <Analytics />
