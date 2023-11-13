@@ -1,0 +1,99 @@
+export default function Page() {
+  return (
+    <>
+      <h1 className="text-4xl font-bold my-2">
+        Cómo Aplicar Pisos de Resina Epoxi en Hogares
+      </h1>
+
+      <p className="my-2">
+        Si estás buscando una forma de darle un aspecto moderno y duradero a los
+        pisos de tu hogar, los pisos de resina epoxi son una excelente opción.
+        Estos pisos no solo son elegantes, sino que también son resistentes y
+        fáciles de mantener. En este artículo, te guiaremos a través de los
+        pasos clave para aplicar pisos de resina epoxi en hogares, ya sea en tu
+        baño, garaje o áreas exteriores.
+      </p>
+      <ul>
+        <li>
+          <p className="my-2">
+            <strong>Paso 1: Preparación del Piso</strong>
+            La preparación es esencial. Comienza por limpiar a fondo la
+            superficie existente. Retira cualquier polvo, suciedad o grasa. Si
+            existen imperfecciones en el piso, como grietas o desniveles, es
+            importante repararlos en esta etapa.
+            <p></p>
+          </p>
+          <li>
+            <p className="my-2">
+              <strong>Paso 2: Elección de la Resina Epoxi</strong>
+              Selecciona la resina epoxi adecuada para tu proyecto. Asegúrate de
+              que sea compatible con el tipo de piso y las condiciones a las que
+              estará expuesta. Puedes elegir entre resinas epoxi transparentes o
+              con pigmentos para personalizar el aspecto de tus pisos.
+            </p>
+          </li>
+
+          <li>
+            <p className="my-2">
+              <strong>Paso 3: Mezcla de Resina</strong>
+              Sigue las instrucciones del fabricante para mezclar la resina
+              epoxi y el endurecedor en las proporciones correctas. Una mezcla
+              precisa es esencial para obtener resultados óptimos.
+            </p>
+          </li>
+
+          <li>
+            <p className="my-2">
+              <strong>Paso 4: Aplicación de la Resina</strong>
+              Usa un rodillo de alta densidad para aplicar la resina de manera
+              uniforme sobre la superficie. Comienza en un extremo y trabaja en
+              secciones pequeñas. Asegúrate de cubrir toda la superficie de
+              manera uniforme.
+            </p>
+          </li>
+
+          <li>
+            <p className="my-2">
+              <strong>Paso 5: Extensión y Nivelación</strong>
+              Para lograr un acabado liso y nivelado, utiliza una espátula para
+              extender y nivelar la resina. Esto es especialmente importante si
+              buscas un acabado autonivelante.
+            </p>
+          </li>
+
+          <li>
+            <p className="my-2">
+              <strong>Paso 6: Tiempo de Curado</strong>
+              Deja que la resina cure según las indicaciones del fabricante. El
+              tiempo de curado puede variar según el tipo de resina y las
+              condiciones ambientales. Evita caminar sobre el piso durante este
+              período.
+            </p>
+          </li>
+
+          <li>
+            <p className="my-2">
+              <strong>Paso 7: Acabado Final</strong>
+              Una vez que la resina se ha curado por completo, puedes aplicar un
+              sellador o capa protectora si lo deseas. Esto ayudará a mantener
+              la apariencia y durabilidad de tus pisos de resina epoxi.
+            </p>
+          </li>
+        </li>
+        <p className="my-2">
+          Los pisos de resina epoxi en hogares son ideales para áreas como el
+          baño, el garaje o espacios exteriores. Son resistentes al agua,
+          duraderos y fáciles de mantener, lo que los convierte en una elección
+          inteligente para mejorar el aspecto de tu hogar.
+        </p>
+        <p className="my-2">
+          En resumen, la aplicación de pisos de resina epoxi en hogares es un
+          proceso que puede transformar tus espacios de manera impresionante. Si
+          tienes más preguntas o necesitas asesoramiento específico para tu
+          proyecto, no dudes en contactarnos. Estamos aquí para ayudarte a
+          lograr pisos de resina epoxi que embellezcan tu hogar.
+        </p>
+      </ul>
+    </>
+  );
+}

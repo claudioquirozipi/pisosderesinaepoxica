@@ -1,165 +1,173 @@
-import { Metadata } from "next";
-import Link from "next/link";
-
-export const metadata: Metadata = {
-  title: "aplicar resina en pisos",
-  description:
-    "Todo sobre como aplicar la resina epoxica para pisos paso a paso",
-};
-
-export default function Home() {
+export default function Page() {
   return (
+    // <Layout title="Aplicación de resina epóxica en pisos">
     <>
-      <main className="mx-4 md:mx-auto  md:w-3/4">
-        <section className="bg-white p-6 rounded shadow">
-          <h1 className="text-4xl font-semibold mb-4">
-            Resina epóxica para pisos ¿Cómo se aplica?
-          </h1>
+      <h1 className="text-4xl font-bold my-2">
+        Cómo Aplicar Resina en Pisos: Pasos y Consejos
+      </h1>
 
-          <p className="text-gray-700">
-            Para la aplicacion de resina epoxica en pisos se requiere atención
-            meticulosa y cierto nivel de habilidad. Aquí tienes la guía básica
-            paso a paso para aplicar resina en pisos:
+      <p className="my-2">
+        Si estás considerando la aplicación de resina epóxica en tus pisos, es
+        importante comprender el proceso y los detalles sobre cómo llevar a cabo
+        esta tarea con éxito.
+      </p>
+      <p className="my-2">
+        En este artículo, te guiaré a través de los pasos esenciales y te
+        proporcionaré consejos clave sobre cómo aplicar resina en pisos de
+        manera efectiva.
+      </p>
+      <h2 className="text-2xl font-bold my-2">
+        resina epoxica para pisos paso a paso
+      </h2>
+      <ul>
+        <li>
+          <p className="my-2">
+            <strong>Paso 1:</strong> Preparación del Área Antes de comenzar,
+            asegúrate de que el área donde aplicarás la resina esté limpia y
+            libre de polvo. Barrer y trapear a fondo para eliminar cualquier
+            suciedad y partículas que puedan afectar la adherencia de la resina.
           </p>
+        </li>
+        <li>
+          <p className="my-2">
+            <strong>Paso 2:</strong> Protección y Delimitación Utiliza cinta de
+            carrocero o cinta de pintor para delimitar el área donde deseas
+            aplicar la resina. Esto evitará que la resina se derrame en áreas no
+            deseadas. Además, cubre las áreas circundantes con protecciones de
+            plástico o lonas para prevenir cualquier posible derrame.
+          </p>
+        </li>
+        <li>
+          <p className="my-2">
+            <strong>Paso 3:</strong> Mezcla de Resina Mezcla la resina epóxica y
+            el endurecedor de acuerdo con las instrucciones del fabricante. Es
+            fundamental seguir las proporciones adecuadas y mezclar de manera
+            uniforme para garantizar un resultado óptimo.
+          </p>
+        </li>
+        <li>
+          <p className="my-2">
+            <strong>Paso 4:</strong> Aplicación de la Resina Usa un rodillo de
+            pintura de alta densidad para aplicar la resina de manera uniforme
+            sobre la superficie del piso. Comienza en una esquina y avanza en
+            una dirección constante. Asegúrate de cubrir toda el área de manera
+            uniforme.
+          </p>
+        </li>
+        <li>
+          <p className="my-2">
+            <strong>Paso 5:</strong> Extensión y Nivelación Para una superficie
+            plana y nivelada, utiliza una espátula dentada para extender y
+            nivelar la resina. Esto es especialmente importante si estás
+            buscando un acabado autonivelante.
+          </p>
+        </li>
+        <li>
+          <p className="my-2">
+            <strong>Paso 6:</strong> Eliminación de Burbujas Después de aplicar
+            la resina, es posible que se formen burbujas de aire. Puedes
+            eliminarlas usando un removedor de burbujas o una pistola de calor.
+            Esto mejorará la apariencia final de tus pisos.
+          </p>
+        </li>
+        <li>
+          <p className="my-2">
+            <strong>Paso 7:</strong> Tiempo de Curado Permite que la resina cure
+            según las instrucciones del fabricante. El tiempo de curado varía
+            según el tipo de resina y las condiciones ambientales. Asegúrate de
+            no caminar sobre la resina durante este período.
+          </p>
+        </li>
+      </ul>
+      <h2 className="text-2xl font-bold my-2">
+        ¿Dónde puedo aplicar la resina epóxica?
+      </h2>
+      <p className="my-2">
+        La resina epóxica es aplicada en el{" "}
+        <a className="text-blue-500 hover:underline" href="/aplicacion/hogar">
+          hogar
+        </a>
+        , en la{" "}
+        <a
+          className="text-blue-500 hover:underline"
+          href="/aplicacion/industria"
+        >
+          industria
+        </a>
+        , en hoteles y comercios ya que genera acabados hermosos de alta calidad
+        y durabilidad
+      </p>
+      <h2 className="text-2xl font-bold my-2">
+        ¿Sobre cuales superficies puedo aplicar la resina epóxica?
+      </h2>
+      <p className="my-2">
+        La resina epoxica puede ser aplicada sobre{" "}
+        <a
+          className="text-blue-500 hover:underline"
+          href="/aplicacion/superficies/cemento"
+        >
+          concreto
+        </a>
+        ,
+        <a
+          className="text-blue-500 hover:underline"
+          href="/aplicacion/superficies/madera"
+        >
+          madera
+        </a>
+        ,
+        <a
+          className="text-blue-500 hover:underline"
+          href="/aplicacion/superficies/ceramica"
+        >
+          cerámica
+        </a>{" "}
+        y
+        <a
+          className="text-blue-500 hover:underline"
+          href="/aplicacion/superficies/vinil"
+        >
+          vinil
+        </a>
+        entre otros materiales
+      </p>
+      <h2 className="text-2xl font-bold my-2">Consejos Adicionales</h2>
+      <p className="my-2">
+        Si deseas crear diseños personalizados, puedes agregar pigmentos de
+        color o crear patrones utilizando cintas de pintor antes de aplicar la
+        resina.
+      </p>
+      <p className="my-2">
+        La ventilación adecuada es crucial al trabajar con resina epóxica, ya
+        que los vapores pueden ser perjudiciales.
+      </p>
 
-          <h2 className="text-xl font-semibold mb-4 mt-4">Pasos:</h2>
-          <ol className="list-decimal list-inside">
-            <li className="mb-2">
-              <strong>Preparación del área:</strong>
-              Limpia y despeja el área a tratar. Asegúrate de que la superficie
-              esté completamente seca, sin polvo ni grasa. Si hay grietas o
-              irregularidades, repara y nivela la superficie. Si es necesario,
-              lija para suavizar y nivelar.
-            </li>
-            <li className="mb-2">
-              <strong>Protección:</strong> Cubre las áreas que no deseas cubrir
-              con resina epóxica, como zócalos, muebles y paredes, con cinta
-              adhesiva.
-            </li>
-            <li className="mb-2">
-              <strong>Mezcla de resina epóxica:</strong> Sigue las instrucciones
-              del fabricante para mezclar la resina epóxica y el endurecedor en
-              las proporciones adecuadas. Mezcla con cuidado para evitar la
-              incorporación de burbujas de aire.
-            </li>
-            <li className="mb-2">
-              <strong>Aplicación de la capa base:</strong> Vierte una cantidad
-              adecuada de resina epóxica en el centro del área y extiéndela con
-              un rodillo de pintura de alta densidad, trabajando en pequeñas
-              secciones a la vez. Utiliza un pincel para llegar a esquinas y
-              áreas difíciles de alcanzar. Asegúrate de aplicar una capa
-              uniforme y delgada.
-            </li>
-            <li className="mb-2">
-              <strong>Burbujas de aire:</strong> Utiliza una espátula caliente o
-              un soplete de calor para eliminar burbujas de aire atrapadas en la
-              resina. Pasa la espátula o el soplete de manera suave y rápida
-              sobre la superficie.
-            </li>
-            <li className="mb-2">
-              <strong>Coloración (opcional):</strong> Si deseas agregar color,
-              mezcla pigmentos o colorantes en la resina antes de aplicarla.
-            </li>
-            <li className="mb-2">
-              <strong>Capa final:</strong> Después de que la capa base se haya
-              curado parcialmente (según las instrucciones), aplica una segunda
-              capa siguiendo los mismos pasos.
-            </li>
-            <li className="mb-2">
-              <strong>Curado:</strong> Deja que el epoxi se cure según las
-              indicaciones del fabricante. Esto puede llevar varios días.
-              Durante este tiempo, evita caminar o colocar objetos sobre la
-              superficie.
-            </li>
-            <li className="mb-2">
-              <strong>Sellado (opcional):</strong> Una vez que el epoxi esté
-              completamente curado, puedes aplicar un sellador transparente para
-              aumentar la durabilidad y el brillo.
-            </li>
-          </ol>
+      <p className="my-2">Asegúrate de trabajar en un área bien ventilada.</p>
 
-          <p className="text-gray-700 mt-4">
-            Recuerda que las instrucciones pueden variar según la marca y el
-            tipo de resina epóxica que utilices. Es importante seguir las
-            indicaciones del fabricante y practicar en una pequeña área antes de
-            aplicar la resina en un espacio más grande.
-          </p>
-        </section>
-        <section className="bg-white p-6 rounded shadow">
-          <h2 className="text-xl font-semibold mb-4 mt-4">
-            ¿Dónde se puede aplicar la resina epóxica para pisos?
-          </h2>
-          <p className="text-gray-700 mt-4">
-            La resina epóxica es una solución versátil que se puede aplicar
-            tanto en entornos residenciales como industriales para mejorar la
-            durabilidad y apariencia de diversos tipos de pisos. Aquí tienes
-            algunas ideas sobre dónde puedes aplicarla en diferentes
-            superficies:
-          </p>
-          <h3 className="text-lg font-semibold mb-4 mt-4">Pisos de cemento:</h3>
-          <ul className="list-disc list-inside">
-            <li>Garajes residenciales e industriales.</li>
-            <li>Talleres y almacenes.</li>
-            <li>Instalaciones deportivas interiores.</li>
-            <li>Suelos comerciales de alto tráfico.</li>
-          </ul>
-          <Link href="/aplicacion/cemento" className="text-blue-500">
-            Ver más sobre pisos de cemento
-          </Link>
-          <h3 className="text-lg font-semibold mb-4 mt-4">Pisos de madera:</h3>
-          <ul className="list-disc list-inside">
-            <li>Hogares y áreas de estar.</li>
-            <li>Restaurantes y cafeterías.</li>
-            <li>Espacios de oficina creativos.</li>
-            <li>Pisos de tiendas y boutiques.</li>
-          </ul>
-          <Link href="/aplicacion/madera" className="text-blue-500">
-            Ver más sobre pisos de madera
-          </Link>
-          <h3 className="text-lg font-semibold mb-4 mt-4">
-            Pisos de cerámica:
-          </h3>
-          <ul className="list-disc list-inside">
-            <li>Cocinas y áreas de comedor.</li>
-            <li>Baños y espacios húmedos.</li>
-            <li>Vestíbulos y entradas.</li>
-            <li>Instalaciones médicas y laboratorios.</li>
-          </ul>
-          <p className="mt-4">
-            Ya sea que estés buscando proteger el piso de tu garaje en casa o
-            renovar los espacios comerciales de alto tráfico, la resina epóxica
-            ofrece una solución duradera y estéticamente atractiva.
-          </p>
-          <p>
-            ¡Explora estas opciones y encuentra la mejor manera de aplicarla en
-            tus pisos!
-          </p>
-        </section>
-        <section className="bg-white p-6 rounded shadow">
-          <p className="text-gray-700 mt-4">
-            Para la colocacion de resina epoxica en pisos te recomendamos usar
-            estos materiales.
-          </p>
-          <h2 className="text-xl font-semibold mb-4 mt-4">
-            Materiales necesarios:
-          </h2>
-          <ul className="list-disc list-inside">
-            <li>
-              Resina epóxica y endurecedor (proporción según las instrucciones
-              del fabricante)
-            </li>
-            <li>Rodillo de pintura de alta densidad</li>
-            <li>Pincel</li>
-            <li>Espátula</li>
-            <li>Cinta adhesiva</li>
-            <li>Ropa de protección y guantes</li>
-            <li>Mascarilla</li>
-            <li>Lijadora (si es necesario)</li>
-            <li>Sellador (opcional)</li>
-            <li>Colorantes o pigmentos (si deseas agregar color)</li>
-          </ul>
-        </section>
-      </main>
+      <p className="my-2">
+        Protege tus manos con guantes de nitrilo y tus ojos con gafas de
+        seguridad durante la aplicación.
+      </p>
+
+      <p className="my-2">
+        La aplicación de resina epóxica en pisos puede transformar tus espacios,
+        proporcionando una superficie resistente y atractiva.
+      </p>
+
+      <p className="my-2">
+        Siguiendo estos pasos y consejos, podrás lograr un resultado exitoso.
+      </p>
+
+      <p className="my-2">
+        Recuerda siempre seguir las recomendaciones del fabricante de la resina
+        que estés utilizando.
+      </p>
+      {/* <!-- <p className="my-2">
+  Si tienes más preguntas o necesitas asesoramiento específico, no dudes en
+  contactarnos. ¡Estamos aquí para ayudarte en tu proyecto de pisos de resina
+  epóxica!
+</p> --> */}
+      {/* </Layout> */}
     </>
   );
 }

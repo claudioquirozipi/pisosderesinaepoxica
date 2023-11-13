@@ -1,0 +1,110 @@
+export default function Page() {
+  return (
+    <>
+      <h1 className="text-4xl font-bold my-2">
+        Lista de Herramientas Necesarias para Aplicar Resinas Epóxicas a los
+        Pisos:
+      </h1>
+      <h2 className="text-2xl font-bold my-2">
+        Rodillo de Pintura de Alta Densidad:
+      </h2>
+      <p className="my-2">
+        Utilizado para aplicar la resina de manera uniforme sobre la superficie.
+      </p>
+      <h2 className="text-2xl font-bold my-2">Espátula Dentada:</h2>
+      <p className="my-2">
+        Ayuda a extender y nivelar la resina epóxica, especialmente en sustratos
+        irregulares.
+      </p>
+      <h2 className="text-2xl font-bold my-2">Guantes de Nitrilo:</h2>
+      <p className="my-2">
+        Para proteger las manos de la resina y productos químicos durante la
+        aplicación.
+      </p>
+      <h2 className="text-2xl font-bold my-2">Botas de Goma:</h2>
+      <p className="my-2">
+        Imprescindibles para evitar que la resina entre en contacto con los
+        zapatos y garantizar la seguridad.
+      </p>
+      <h2 className="text-2xl font-bold my-2">Mascarilla de Respiración:</h2>
+      <p className="my-2">
+        Para protegerse de los vapores químicos que puedan desprenderse durante
+        la aplicación.
+      </p>
+      <h2 className="text-2xl font-bold my-2">Gafas de Seguridad:</h2>
+      <p className="my-2">
+        Protegen los ojos de posibles salpicaduras de resina.
+      </p>
+      <h2 className="text-2xl font-bold my-2">Bandejas de Mezcla:</h2>
+      <p className="my-2">
+        Contenedores desechables para mezclar la resina y endurecedor en
+        proporciones precisas.
+      </p>
+      <h2 className="text-2xl font-bold my-2">Escoba y Aspiradora:</h2>
+      <p className="my-2">
+        Para preparar la superficie, eliminando polvo y suciedad antes de
+        aplicar la resina.
+      </p>
+      <h2 className="text-2xl font-bold my-2">Cepillo de Púas de Acero:</h2>
+      <p className="my-2">
+        Se utiliza para eliminar cualquier residuo o pintura vieja en sustratos
+        problemáticos.
+      </p>
+      <h2 className="text-2xl font-bold my-2">Medidores de Humedad:</h2>
+      <p className="my-2">
+        Para verificar la humedad del sustrato, lo que es importante para
+        garantizar una buena adhesión.
+      </p>
+      <h2 className="text-2xl font-bold my-2">Selladores de Grietas:</h2>
+      <p className="my-2">
+        Utilizados para reparar cualquier fisura en el sustrato antes de aplicar
+        la resina.
+      </p>
+      <h2 className="text-2xl font-bold my-2">
+        Cubetas de Mezcla y Varillas de Agitación:
+      </h2>
+      <p className="my-2">
+        Necesarios para mezclar la resina epóxica y el endurecedor antes de la
+        aplicación.
+      </p>
+      <h2 className="text-2xl font-bold my-2">
+        Nivel Láser o Regla Niveladora:
+      </h2>
+      <p className="my-2">
+        Ayudan a garantizar que la resina se aplique de manera uniforme y
+        nivelada.
+      </p>
+      <h2 className="text-2xl font-bold my-2">
+        Cinta de Carrocero o Cinta de Pintor:
+      </h2>
+      <p className="my-2">
+        Para delimitar áreas y evitar que la resina se derrame donde no debe.
+      </p>
+      <h2 className="text-2xl font-bold my-2">
+        Protecciones de Plástico o Lona:
+      </h2>
+      <p className="my-2">
+        Se colocan en las áreas circundantes para protegerlas de posibles
+        derrames de resina.
+      </p>
+      <h2 className="text-2xl font-bold my-2">Removedor de Burbujas:</h2>
+      <p className="my-2">
+        Ayuda a eliminar burbujas de aire atrapadas en la resina, lo que mejora
+        la apariencia final.
+      </p>
+      <h2 className="text-2xl font-bold my-2">Reloj Temporizador:</h2>
+      <p className="my-2">
+        Importante para llevar un control preciso del tiempo de mezcla y
+        aplicación, especialmente con resinas de curado rápido.
+      </p>
+      <p className="my-2">
+        Estas herramientas y tipos de resina son elementos esenciales para
+        garantizar una aplicación exitosa de resina epóxica en pisos.
+      </p>
+      <p className="my-2">
+        La elección de la resina y las herramientas adecuadas dependerá de las
+        necesidades específicas de tu proyecto.
+      </p>
+    </>
+  );
+}
