@@ -1,6 +1,15 @@
+"use client";
 import { menu } from "@/app/data/menu";
+import { useState } from "react";
 
 export default function Navbar() {
+  const [toggleMenu, setToggleMenu] = useState(false);
+
+  console.log("toggleMenu", toggleMenu);
+  const handleClicked = () => {
+    console.log("clicked");
+    setToggleMenu(!toggleMenu);
+  };
   return (
     <nav className="bg-blue-500 border-gray-200 dark:bg-gray-900">
       <div className=" max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
@@ -21,6 +30,7 @@ export default function Navbar() {
           aria-controls="navbar-default"
           aria-expanded="false"
           id="toggleButton"
+          onClick={handleClicked}
         >
           <span className="sr-only">Open main menu</span>
           <svg
@@ -39,7 +49,10 @@ export default function Navbar() {
             ></path>
           </svg>
         </button>
-        <div className="hidden w-full md:block md:w-auto" id="navbar-default">
+        <div
+          className={`${toggleMenu ? "" : "hidden"} w-full md:block md:w-auto`}
+          id="navbar-default"
+        >
           <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 borderrounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0">
             {menu.map((m: any, i: number) => (
               <li key={i}>
