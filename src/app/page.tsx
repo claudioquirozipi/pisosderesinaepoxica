@@ -4,45 +4,13 @@ import { Section } from "@/components/section";
 import Image from "next/image";
 import Link from "next/link";
 
+import Header from "./resinas/header";
+
 export default function Home() {
   return (
     <>
-      <header className="w-full h-screen ">
-        <figure className="w-full h-full absolute">
-          <Image
-            src="/headerBackground.png"
-            alt=""
-            className="w-full h-screen brightness-50"
-            width={1920}
-            height={1080}
-          />
-        </figure>
+      <Header />
 
-        <div className="absolute w-full">
-          <div className="mx-4 md:mx-auto  md:w-3/4">
-            <p className="text-md md:text-6xl text-white mt-10 md:mt-48">
-              Transforma tus espacios con los{" "}
-            </p>
-            <h1 className="text-2xl md:text-4xl mt-4 md:mt-10 text-white">
-              Pisos de resina epóxica
-            </h1>
-            {/* <a
-              className="text-white text-xl border-2 border-white rounded-full px-4 py-2 mt-6 inline-block"
-              href="#"
-            >
-              Ver resinas epóxicas <span>&#8594;</span>
-            </a> */}
-            <p className="text-white text-sm mt-6 max-w-sm">
-              Explora los tipos versátiles de resinas epóxicas para pisos y
-              descubre sus aplicaciones únicas, conoce las ventajas y considera
-              las desventajas de estos pisos duraderos, explora el proceso de
-              instalación y mantenimiento, y sumérgete en una amplia gama de
-              diseños y colores personalizados para crear espacios únicos y
-              modernos.
-            </p>
-          </div>
-        </div>
-      </header>
       <main className="mx-4 md:mx-auto  md:w-3/4">
         <section className="bg-white p-6 rounded shadow">
           <h1 className="text-4xl font-semibold mb-4">
