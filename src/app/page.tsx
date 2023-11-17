@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 
-import { Section } from "@/components/section";
+import { Section } from "@/app/components/section";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -12,30 +12,101 @@ export default function Home() {
       <Header />
 
       <main className="mx-4 md:mx-auto  md:w-3/4">
-        <section className="bg-white p-6 rounded shadow">
-          <h1 className="text-4xl font-semibold mb-4">
-            Pisos de resina epóxica
-          </h1>
-          <h2 className="text-xl font-semibold mb-4">
-            Introducción a los pisos de resina epóxica
-          </h2>
-          <p className="text-gray-700">
-            Los pisos de resina epóxica son una opción popular para diversos
-            entornos debido a sus propiedades únicas y versatilidad. La resina
-            epóxica es un material duradero y resistente que se aplica sobre
-            superficies para crear un acabado liso y brillante. Estos pisos son
-            ampliamente utilizados en espacios industriales, comerciales y
-            residenciales debido a su capacidad para resistir el desgaste,
-            productos químicos y abrasiones.
-          </p>
-          <p className="text-gray-700 mt-2">
-            Además de su durabilidad, los pisos de resina epóxica también
-            ofrecen una amplia gama de opciones de diseño. Pueden personalizarse
-            con diferentes colores, patrones y efectos decorativos, lo que los
-            convierte en una elección atractiva para quienes buscan una solución
-            estética y funcional para sus suelos.
-          </p>
-        </section>
+        <Section
+          header={
+            <h2 className="text-4xl font-semibold mb-4">
+              ¿Qué son los pisos de resina epóxica?
+            </h2>
+          }
+          contentC={
+            <>
+              <p className="text-gray-700">
+                Los pisos de resina epóxica son una opción popular para diversos
+                entornos debido a sus propiedades únicas y versatilidad. La
+                resina epóxica es un material duradero y resistente que se
+                aplica sobre superficies para crear un acabado liso y brillante.
+                Estos pisos son ampliamente utilizados en espacios industriales,
+                comerciales y residenciales debido a su capacidad para resistir
+                el desgaste, productos químicos y abrasiones.
+              </p>
+              <p className="text-gray-700 mt-2">
+                Además de su durabilidad, los pisos de resina epóxica también
+                ofrecen una amplia gama de opciones de diseño. Pueden
+                personalizarse con diferentes colores, patrones y efectos
+                decorativos, lo que los convierte en una elección atractiva para
+                quienes buscan una solución estética y funcional para sus
+                suelos.
+              </p>
+            </>
+          }
+        />
+        <Section
+          header={
+            <h2 className="text-4xl font-semibold mb-4">
+              Por qué elegir pisos de resina epóxica
+            </h2>
+          }
+          contentA={
+            <>
+              <p className="text-gray-700">
+                Los pisos de resina epoxi destacan por su durabilidad, bajo
+                mantenimiento y atractivo estético. Su resistencia al desgaste,
+                fácil limpieza y variedad de diseños hacen que sean una opción
+                duradera y asequible para cualquier espacio.
+              </p>
+              {/* <Link
+                href="/aplicacion"
+                className="inline-block bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-4"
+              >
+                Ver más diseños
+              </Link> */}
+            </>
+          }
+          contentB={
+            <Image
+              className="rounded shadow-lg"
+              src="/home/hotel-with-epoxy-resin-floors.png"
+              alt="Hombre aplincando resina epóxica"
+              width={250}
+              height={250}
+            />
+          }
+        />
+        <Section
+          header={
+            <h2 className="text-4xl font-semibold mb-4">
+              Aplicación de las resinas para pisos epoxicos
+            </h2>
+          }
+          contentB={
+            <>
+              <p className="text-gray-700">
+                Para aplicar la resina epoxica para pisos se debe preparar y
+                limpiar la superficie, mezclar resina y endurecedor según las
+                indicaciones, aplicar capas uniformes con rodillo y pincel,
+                eliminando burbujas, opcionalmente añadir colorantes, permitir
+                el curado adecuado y considerar un sellador para mayor
+                durabilidad y brillo.
+              </p>
+              <Link
+                href="/aplicacion"
+                className="inline-block bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-4"
+              >
+                Ver más
+              </Link>
+            </>
+          }
+          contentA={
+            <Image
+              className="rounded shadow-lg"
+              src="/applying-epoxy-resin-1.png"
+              alt="Hombre aplincando resina epóxica"
+              width={250}
+              height={250}
+            />
+          }
+        />
+
         <section className="bg-white p-6 rounded shadow">
           <h2 className="text-xl font-semibold mb-4">
             Tipos de Resinas Epóxicas
@@ -171,40 +242,6 @@ export default function Home() {
             popular en una amplia gama de entornos.
           </p>
         </section>
-        <Section
-          header={
-            <h2 className="text-xl font-semibold mb-4">
-              Aplicación de las resinas para pisos epoxicos
-            </h2>
-          }
-          contentA={
-            <>
-              <p className="text-gray-700">
-                Para aplicar la resina epoxica para pisos se debe preparar y
-                limpiar la superficie, mezclar resina y endurecedor según las
-                indicaciones, aplicar capas uniformes con rodillo y pincel,
-                eliminando burbujas, opcionalmente añadir colorantes, permitir
-                el curado adecuado y considerar un sellador para mayor
-                durabilidad y brillo.
-              </p>
-              <Link
-                href="/aplicacion"
-                className="inline-block bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-4"
-              >
-                Ver más
-              </Link>
-            </>
-          }
-          contentB={
-            <Image
-              className="rounded shadow-lg"
-              src="/applying-epoxy-resin-1.png"
-              alt="Hombre aplincando resina epóxica"
-              width={250}
-              height={250}
-            />
-          }
-        />
 
         <section className="bg-white p-6 rounded shadow">
           <h2 className="text-xl font-semibold mb-4">

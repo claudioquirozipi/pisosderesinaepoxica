@@ -1,7 +1,7 @@
 import { SectionProps } from "./interfaces";
 
 export function Section(props: SectionProps) {
-  const { header, footer, contentA, contentB } = props;
+  const { header, footer, contentA, contentB, contentC } = props;
   return (
     <section className="bg-white p-6 rounded shadow">
       {header && <div>{header}</div>}
@@ -9,6 +9,7 @@ export function Section(props: SectionProps) {
         {contentA && <div>{contentA}</div>}
         {contentB && <div>{contentB}</div>}
       </div>
+      {contentC && <div>{contentC}</div>}
       {footer && <div>{footer}</div>}
     </section>
   );
