@@ -4,4 +4,5 @@ export interface SectionProps {
   contentB?: any;
   contentC?: any;
   footer?: any;
+  bg?: boolean;
 }
